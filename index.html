@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lukyness.</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+    
+      
+     
+    </style>
+</head>
+<body>
+    <!-- for data tag  -->
+    <h1 id="h1"></h1>
+    <!-- here we written a rules for game  -->
+    <div class="rules">
+        <div class="ru">
+            <h1>lucky day GAME:</h1>
+            <h2>step1: choose any three box by clicking it .</h2>
+            <h2>step2: Then click the play button.</h2>
+            <h2>step3: Rabbit came to your box means YOU Won the GAME</h2>
+            <h2>step4: if you want to select the again ,click again button</h2>
+        </div>
+    </div>
+<!-- empty tag for , result of the game 
+        e- for result tag 
+        c- for selected box tag  . 
+-->
+      <h1 id="e"></h1>
+      <h1 id="c"></h1>
+    <br>
+    <!-- here 9 box and 2 buttons  -->
+    <div class="box">
+        <div class="row1">
+            <a href="javascript:void(0)" onclick="fun1(1,'r11');"><div class="d1 dd" id="r11">
+        <img src=""  id="r1"  style="width:100px; ">
+    </div> </a>
+    
+        <a href="javascript:void(0)" onclick="fun1(4,'r44');"> <div class="d2 dd" id="r44">
+            <img src=""  id="r4"  style="width:100px; ">
+
+        </div> </a>
+            <a href="javascript:void(0)" onclick="fun1(7,'r77');"> <div class="d3 dd" id="r77">
+                <img src=""  id="r7"  style="width:100px; ">
+
+            </div></a>
+        </div>
+    <div class="row2">
+        
+        <a href="javascript:void(0)" onclick="fun1(2,'r22');"><div class="d4  dd" id="r22">
+            <img src=""  id="r2"  style="width:100px; ">
+
+        </div>
+          </a>
+       <a href="javascript:void(0)" onclick="fun1(5,'r55');"> <div class="d5 dd" id="r55">
+        <img src=""  id="r5"  style="width:100px; ">
+
+       </div></a>
+        <a href="javascript:void(0)" onclick="fun1(8,'r88');"><div class="d6 dd" id="r88">
+            <img src=""  id="r8"  style="width:100px; ">
+
+        </div> </a>
+    </div>
+    <div class="row3">
+    <a href="javascript:void(0)" onclick="fun1(3,'r33');"> <div class="d7 dd" id="r33">
+        <img src=""  id="r3"  style="width:100px; ">
+
+    </div></a>
+        <a href="javascript:void(0)" onclick="fun1(6,'r66');"><div class="d8 dd" id="r66">
+            <img src=""  id="r6"  style="width:100px; ">
+
+        </div></a>
+        <a href="javascript:void(0)" onclick="fun1(9,'r99');"><div class="d9 dd" id="r99">
+            <img src=""  id="r9"  style="width:100px; ">
+
+        </div></a>
+    </div>
+    <button onclick="find();">play</button>
+ <button onclick="window.location.reload();" class="aa" id="a1"> select <br>again</button>
+
+
+</div>
+</body>
+<script src="js.js"></script>
+</html>
