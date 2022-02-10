@@ -27,6 +27,8 @@ img{
  button,.aa{
      background-color: rgb(233, 79, 79);
      color: wheat;
+      width: 150px;
+     margin-left: calc(50% - 75px);
  }
 
 
