@@ -8,7 +8,7 @@ function fun1(s1,s2) {
     if (ar.length < 3) {
         // dont select the more than 3 colomn so this condition 
     ar.push(s1);
-    document.getElementById(s2).style.border=" 10px solid rgb(247, 156, 21)";
+    document.getElementById(s2).style.border="10px solid rgb(247, 156, 21)";
     document.getElementById(s2).style.boxShadow="0px 0px 60px #ec5a06";
     }
   if (ar.length==1) {
@@ -31,7 +31,8 @@ if (ar.length==0) {
 }
 //  here putting the rabbit for random number
 if (x==1) {
-    document.getElementById("r1").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png";  
+    document.getElementById("r1").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png";
+    document.getElementById("r1").style.display="block"; 
     document.getElementById("r2").src="";  
     document.getElementById("r3").src="";  
     document.getElementById("r4").src="";  
@@ -42,7 +43,8 @@ if (x==1) {
     document.getElementById("r9").src="";  
     
 } else if (x==2) {
-    document.getElementById("r2").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png";  
+    document.getElementById("r2").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png"; 
+    document.getElementById("r2").style.display="block";  
     document.getElementById("r1").src="";  
     document.getElementById("r3").src="";  
     document.getElementById("r4").src="";  
@@ -55,6 +57,7 @@ if (x==1) {
     
 }else if (x==3) {
     document.getElementById("r3").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png";  
+    document.getElementById("r3").style.display="block"; 
     document.getElementById("r2").src="";  
     document.getElementById("r1").src="";  
     document.getElementById("r4").src="";  
@@ -67,6 +70,7 @@ if (x==1) {
     
 }else if (x==4) {
     document.getElementById("r4").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png"; 
+    document.getElementById("r4").style.display="block"; 
     document.getElementById("r2").src="";  
     document.getElementById("r3").src="";  
     document.getElementById("r1").src="";  
@@ -79,6 +83,7 @@ if (x==1) {
     
 }else if (x==5) {
     document.getElementById("r5").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png"; 
+    document.getElementById("r5").style.display="block"; 
     document.getElementById("r2").src="";  
     document.getElementById("r3").src="";  
     document.getElementById("r4").src="";  
@@ -91,6 +96,7 @@ if (x==1) {
     
 }else if (x==6) {
     document.getElementById("r6").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png";  
+    document.getElementById("r6").style.display="block"; 
     document.getElementById("r2").src="";  
     document.getElementById("r3").src="";  
     document.getElementById("r4").src="";  
@@ -101,7 +107,8 @@ if (x==1) {
     document.getElementById("r9").src="";  
     
 }else if (x==7) {
-    document.getElementById("r7").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png"; 
+    document.getElementById("r7").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png";
+    document.getElementById("r7").style.display="block";  
     document.getElementById("r2").src="";  
     document.getElementById("r3").src="";  
     document.getElementById("r4").src="";  
@@ -113,7 +120,8 @@ if (x==1) {
      
     
 }else if (x==8) {
-    document.getElementById("r8").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png";  
+    document.getElementById("r8").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png"; 
+    document.getElementById("r8").style.display="block";  
     document.getElementById("r2").src="";  
     document.getElementById("r3").src="";  
     document.getElementById("r4").src="";  
@@ -126,6 +134,7 @@ if (x==1) {
     
 }else{
     document.getElementById("r9").src="https://pngimg.com/uploads/rabbit/rabbit_PNG96532.png";  
+    document.getElementById("r9").style.display="block"; 
     document.getElementById("r2").src="";  
     document.getElementById("r3").src="";  
     document.getElementById("r4").src="";  
