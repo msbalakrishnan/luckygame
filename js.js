@@ -8,7 +8,7 @@ function fun1(s1,s2) {
     if (ar.length < 3) {
         // dont select the more than 3 colomn so this condition 
     ar.push(s1);
-    document.getElementById(s2).style.border="solid rgb(247, 156, 21)";
+    document.getElementById(s2).style.border=" 10px solid rgb(247, 156, 21)";
     document.getElementById(s2).style.boxShadow="0px 0px 60px #ec5a06";
     }
   if (ar.length==1) {
