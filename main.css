@@ -9,7 +9,7 @@ body{
  .dd{
     width: 100px;
     height: 100px;
-    border: solid rgb(38, 231, 222);
+    border: 10px solid rgb(38, 231, 222);
     background-image: url("https://png.pngtree.com/png-clipart/20190120/ourmid/pngtree-hand-painted-cartoon-green-nature-png-image_497930.jpg");
     background-size: cover;
  }
